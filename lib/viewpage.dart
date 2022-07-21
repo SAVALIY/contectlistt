@@ -17,6 +17,7 @@ class _viewpageState extends State<viewpage> {
   List<Map<String, Object?>> l = List.empty(growable: true);
   Database? db;
   bool status = false;
+  String? abc;
 
   @override
   void initState() {
